@@ -1,8 +1,10 @@
 import React from "react";
+import Rainbow from "../hoc/Rainbow";
+
 const About = () => {
 	return (
 		<div className="container">
-			<h4 className="center">About Component</h4>
+			<h4 className="center">About Component with random colour</h4>
 			<p>
 				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
 				voluptatum suscipit commodi nulla repudiandae, quaerat eaque.
@@ -12,4 +14,4 @@ const About = () => {
 		</div>
 	);
 };
-export default About;
+export default Rainbow(About);
